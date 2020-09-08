@@ -1,6 +1,6 @@
 ### Install: 
 ```bash
-git clone "https://github.com/vpgeudes/Init_Repo.git"
+git clone "https://github.com/vpguedes/Init_Repo.git"
 cd Init_Repo
 pip install -r requirements.txt
 touch .env

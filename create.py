@@ -12,9 +12,9 @@ def create():
     folderName = str(sys.argv[1])
     os.makedirs(path + folderName)
     python_button = browser.find_elements_by_xpath('//*[@id="login_field"]')[0]
-    python_button.send_keys('vpguedes')
+    python_button.send_keys('')
     python_button = browser.find_elements_by_xpath('//*[@id="password"]')[0]
-    python_button.send_keys('flashd41')
+    python_button.send_keys('')
     python_button = browser.find_elements_by_xpath('//*[@id="login"]/form/div[4]/input[9]')[0]
     python_button.click()
     browser.get('https://github.com/new')
